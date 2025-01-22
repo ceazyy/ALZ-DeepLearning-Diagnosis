@@ -1,0 +1,71 @@
+/* index.css */
+
+body {
+    font-family: 'Archivo Black', sans-serif;
+    background-color: #f0f0f0;
+}
+
+#logo {
+    color: purple;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+}
+
+.nav-item {
+    text-align: center;
+    color: grey;
+    size: 9px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+#result {
+    padding: 10px;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+    /* Add margin for spacing between result and other elements */
+}
+
+#result p {
+    margin: 0;
+    /* Remove default margin for paragraphs */
+}
+
+/* Add additional styles for the result if needed */
+.image-upload>input {
+    display: none;
+}
+
+
+.image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image-upload {
+    margin-bottom: 50px; /* Adjust the margin-bottom value as needed */
+}
