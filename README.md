@@ -4,7 +4,7 @@
 This repository contains the implementation, dataset reference, and findings from our study:  
 **"A Comparative Analysis of Deep Learning Models for Alzheimer's Disease Diagnosis."**  
 The research evaluates various deep learning architectures for classifying MRI images into different stages of Alzheimer's disease.
-(The model is not uploaded because the file was large)
+(The model is not uploaded because the file was large but if you would like to implement it, the models were vgg-16, inception v3, xception, efficient-net b3)
 
 ## Dataset
 The dataset utilized in this research is the **Alzheimer's MRI Preprocessed Dataset**, accessible on [Kaggle](https://www.kaggle.com/datasets/sachinkumar413/alzheimer-mri-dataset).  
